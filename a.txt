@@ -1,0 +1,15 @@
+import javascript
+import semmle.javascript.security.dataflow.DomBasedXss::DomBasedXss
+
+/*
+$( "#" + $.escapeSelector(window.location.hash.substr(1)) + "" ).trigger( 'click' );
+*/
+
+ class Configuration extends TaintTracking::Configuration {
+    Configuration() { this = "DomBasedXss" }
+
+    override predicate isSource(DataFlow::Node source) { source instanceof Source }
+
+    override predicate isSink(DataFlow::Node sink) { sink instanceof Sink }
+}
+

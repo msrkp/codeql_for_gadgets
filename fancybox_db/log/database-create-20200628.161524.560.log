@@ -1,0 +1,479 @@
+[2020-06-28 16:15:24] This is codeql database create fancybox_db --language=javascript --source-root fancybox/
+[2020-06-28 16:15:24] Log file was started late.
+[2020-06-28 16:15:24] Using autobuild script /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/autobuild.sh.
+[2020-06-28 16:15:24] [DETAILS] database create> Detected autobuild command: /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/autobuild.sh.
+[2020-06-28 16:15:24] [PROGRESS] database create> Running command [/home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/autobuild.sh] in /home/hacker/Documents/research/codeql_for_gadgets/fancybox.
+[2020-06-28 16:15:24] Running plumbing command: codeql database trace-command --working-dir=/home/hacker/Documents/research/codeql_for_gadgets/fancybox -- /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/autobuild.sh
+[2020-06-28 16:15:24] [PROGRESS] database trace-command> /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db: Running in /home/hacker/Documents/research/codeql_for_gadgets/fancybox: [/home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/autobuild.sh]
+[2020-06-28 16:15:25] [build] Single-threaded extraction.
+[2020-06-28 16:15:25] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/dist/jquery.fancybox.js
+[2020-06-28 16:15:31] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/dist/jquery.fancybox.js (5735 ms)
+[2020-06-28 16:15:31] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/gulpfile.js
+[2020-06-28 16:15:31] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/gulpfile.js (246 ms)
+[2020-06-28 16:15:31] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/fullscreen.js
+[2020-06-28 16:15:31] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/fullscreen.js (104 ms)
+[2020-06-28 16:15:31] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/guestures.js
+[2020-06-28 16:15:32] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/guestures.js (510 ms)
+[2020-06-28 16:15:32] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/core.js
+[2020-06-28 16:15:34] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/core.js (1680 ms)
+[2020-06-28 16:15:34] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/media.js
+[2020-06-28 16:15:34] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/media.js (150 ms)
+[2020-06-28 16:15:34] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/thumbs.js
+[2020-06-28 16:15:34] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/thumbs.js (130 ms)
+[2020-06-28 16:15:34] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/hash.js
+[2020-06-28 16:15:34] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/hash.js (83 ms)
+[2020-06-28 16:15:34] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/slideshow.js
+[2020-06-28 16:15:34] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/src/js/slideshow.js (105 ms)
+[2020-06-28 16:15:34] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/package.json
+[2020-06-28 16:15:34] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/package.json (16 ms)
+[2020-06-28 16:15:34] [build] Extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/docs/index.html
+[2020-06-28 16:15:34] [build] Done extracting /home/hacker/Documents/research/codeql_for_gadgets/fancybox/docs/index.html (345 ms)
+[2020-06-28 16:15:34] [build-err] No externs trap cache found
+[2020-06-28 16:15:34] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es6.js
+[2020-06-28 16:15:35] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es6.js (541 ms)
+[2020-06-28 16:15:35] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/intl.js
+[2020-06-28 16:15:35] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/intl.js (79 ms)
+[2020-06-28 16:15:35] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es2016.js
+[2020-06-28 16:15:35] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es2016.js (9 ms)
+[2020-06-28 16:15:35] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/proxy.js
+[2020-06-28 16:15:35] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/proxy.js (13 ms)
+[2020-06-28 16:15:35] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es5.js
+[2020-06-28 16:15:35] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es5.js (91 ms)
+[2020-06-28 16:15:35] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es3.js
+[2020-06-28 16:15:36] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es3.js (628 ms)
+[2020-06-28 16:15:36] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es2017.js
+[2020-06-28 16:15:36] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es2017.js (21 ms)
+[2020-06-28 16:15:36] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es6_collections.js
+[2020-06-28 16:15:36] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/es/es6_collections.js (54 ms)
+[2020-06-28 16:15:36] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/vows.js
+[2020-06-28 16:15:36] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/vows.js (80 ms)
+[2020-06-28 16:15:36] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/should.js
+[2020-06-28 16:15:36] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/should.js (95 ms)
+[2020-06-28 16:15:36] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/jquery-3.2.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/jquery-3.2.js (622 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/bdd.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/lib/bdd.js (33 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/spidermonkey.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/spidermonkey.js (13 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/jsshell.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/jsshell.js (164 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/rhino.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/rhino.js (22 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/v8.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/vm/v8.js (23 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/tty.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/tty.js (59 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/dns.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/dns.js (92 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/util.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/util.js (116 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/querystring.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/querystring.js (35 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/buffer.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/buffer.js (55 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/events.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/events.js (46 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/url.js
+[2020-06-28 16:15:37] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/url.js (36 ms)
+[2020-06-28 16:15:37] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/stream.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/stream.js (243 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/console.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/console.js (11 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/punycode.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/punycode.js (28 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/assert.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/assert.js (70 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/zlib.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/zlib.js (170 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/assert_legacy.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/assert_legacy.js (12 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/cluster.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/cluster.js (288 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/domain.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/domain.js (34 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/sys.js
+[2020-06-28 16:15:38] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/sys.js (14 ms)
+[2020-06-28 16:15:38] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/globals.js
+[2020-06-28 16:15:39] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/globals.js (599 ms)
+[2020-06-28 16:15:39] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/https.js
+[2020-06-28 16:15:39] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/https.js (61 ms)
+[2020-06-28 16:15:39] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/readline.js
+[2020-06-28 16:15:39] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/readline.js (59 ms)
+[2020-06-28 16:15:39] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/net.js
+[2020-06-28 16:15:39] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/net.js (126 ms)
+[2020-06-28 16:15:39] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/path.js
+[2020-06-28 16:15:39] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/path.js (85 ms)
+[2020-06-28 16:15:39] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/timers.js
+[2020-06-28 16:15:39] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/timers.js (30 ms)
+[2020-06-28 16:15:39] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/child_process.js
+[2020-06-28 16:15:40] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/child_process.js (213 ms)
+[2020-06-28 16:15:40] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/module.js
+[2020-06-28 16:15:40] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/module.js (28 ms)
+[2020-06-28 16:15:40] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/crypto.js
+[2020-06-28 16:15:40] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/crypto.js (250 ms)
+[2020-06-28 16:15:40] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/vm.js
+[2020-06-28 16:15:40] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/vm.js (52 ms)
+[2020-06-28 16:15:40] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/dgram.js
+[2020-06-28 16:15:40] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/dgram.js (58 ms)
+[2020-06-28 16:15:40] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/constants.js
+[2020-06-28 16:15:40] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/constants.js (457 ms)
+[2020-06-28 16:15:40] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/tls.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/tls.js (169 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/os.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/os.js (86 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/process.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/process.js (8 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/fs.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/fs.js (523 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/string_decoder.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/string_decoder.js (34 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/http.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/http.js (190 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/repl.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/repl.js (58 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/v8.js
+[2020-06-28 16:15:41] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/nodejs/v8.js (26 ms)
+[2020-06-28 16:15:41] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_notifications.js
+[2020-06-28 16:15:42] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_notifications.js (67 ms)
+[2020-06-28 16:15:42] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_geolocation.js
+[2020-06-28 16:15:42] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_geolocation.js (28 ms)
+[2020-06-28 16:15:42] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_css.js
+[2020-06-28 16:15:42] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_css.js (300 ms)
+[2020-06-28 16:15:42] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/html5.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/html5.js (867 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_xml.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_xml.js (13 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/mediasource.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/mediasource.js (41 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_dom.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_dom.js (179 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_navigation_timing.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_navigation_timing.js (93 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_vml.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_vml.js (15 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom3.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom3.js (175 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_range.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_range.js (52 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_batterystatus.js
+[2020-06-28 16:15:43] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_batterystatus.js (14 ms)
+[2020-06-28 16:15:43] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_css.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_css.js (381 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_css.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_css.js (55 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/page_visibility.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/page_visibility.js (5 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/url.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/url.js (34 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/intl.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/intl.js (47 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_midi.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_midi.js (49 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_event.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_event.js (68 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_selectors.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_selectors.js (23 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/whatwg_encoding.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/whatwg_encoding.js (14 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_requestidlecallback.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_requestidlecallback.js (12 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_webcrypto.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_webcrypto.js (76 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_serviceworker.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_serviceworker.js (119 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webstorage.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webstorage.js (33 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/flash.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/flash.js (61 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_dom.js
+[2020-06-28 16:15:44] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_dom.js (77 ms)
+[2020-06-28 16:15:44] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_dom.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/ie_dom.js (249 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webgl.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webgl.js (661 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_css.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_css.js (61 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_usercontent.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_usercontent.js (12 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_screen_orientation.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_screen_orientation.js (12 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_pointer_events.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_pointer_events.js (25 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_elementtraversal.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_elementtraversal.js (24 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_event.js
+[2020-06-28 16:15:45] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/webkit_event.js (7 ms)
+[2020-06-28 16:15:45] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/window.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/window.js (25 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_device_sensor_event.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_device_sensor_event.js (18 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_ext.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_ext.js (5 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom1.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom1.js (223 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_anim_timing.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_anim_timing.js (24 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_event.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/gecko_event.js (23 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/streamsapi.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/streamsapi.js (88 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_rtc.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_rtc.js (378 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_xml.js
+[2020-06-28 16:15:46] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_xml.js (74 ms)
+[2020-06-28 16:15:46] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_indexeddb.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_indexeddb.js (149 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_encoding.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_encoding.js (11 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_event.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_event.js (104 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_event3.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_event3.js (22 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_touch_event.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_touch_event.js (43 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/iphone.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/iphone.js (30 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_permissions.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_permissions.js (17 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_css3d.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_css3d.js (32 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom2.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom2.js (382 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_gamepad.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_gamepad.js (23 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom4.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/w3c_dom4.js (10 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/chrome.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/chrome.js (112 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/fileapi.js
+[2020-06-28 16:15:47] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/fileapi.js (182 ms)
+[2020-06-28 16:15:47] [build] Extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/fetchapi.js
+[2020-06-28 16:15:48] [build] Done extracting /home/hacker/Documents/bugBounty/codeql/codeql/javascript/tools/data/externs/web/fetchapi.js (91 ms)
+[2020-06-28 16:15:48] Plumbing command codeql database trace-command completed.
+[2020-06-28 16:15:48] [PROGRESS] database create> Finalizing database at /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db.
+[2020-06-28 16:15:48] Running plumbing command: codeql database finalize --mode=normal -- /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db
+[2020-06-28 16:15:48] [PROGRESS] database finalize> Running TRAP import for CodeQL database at /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db...
+[2020-06-28 16:15:48] Running plumbing command: codeql dataset import --dbscheme=/home/hacker/Documents/bugBounty/codeql/codeql/javascript/semmlecode.javascript.dbscheme -- /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/db-javascript /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/trap/javascript
+[2020-06-28 16:15:49] Clearing disk cache since the version file /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/db-javascript/default/cache/version does not exist
+[2020-06-28 16:15:49] Tuple pool not found. Clearing relations with cached strings
+[2020-06-28 16:15:49] Trimming disk cache at /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/db-javascript/default/cache in mode brutal.
+[2020-06-28 16:15:49] Sequence stamp origin is -6710537867307582425
+[2020-06-28 16:15:49] Stopped the world to hard-clear memory at sequence stamp o+0
+[2020-06-28 16:15:49] Starting the world again
+[2020-06-28 16:15:49] Stopped the world to quickly trim disk at sequence stamp o+1
+[2020-06-28 16:15:49] Starting the world again
+[2020-06-28 16:15:49] Stopped the world to zealously trim disk at sequence stamp o+2
+[2020-06-28 16:15:49] Starting the world again
+[2020-06-28 16:15:49] Trimming completed (37ms): Purged everything.
+[2020-06-28 16:15:49] Scanning for files in /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/trap/javascript
+[2020-06-28 16:15:50] Importing es2016.js.trap.gz (1 of 122)
+[2020-06-28 16:15:50] Importing es2017.js.trap.gz (2 of 122)
+[2020-06-28 16:15:50] Importing es3.js.trap.gz (3 of 122)
+[2020-06-28 16:15:51] Importing es5.js.trap.gz (4 of 122)
+[2020-06-28 16:15:51] Importing es6.js.trap.gz (5 of 122)
+[2020-06-28 16:15:51] Importing es6_collections.js.trap.gz (6 of 122)
+[2020-06-28 16:15:51] Importing intl.js.trap.gz (7 of 122)
+[2020-06-28 16:15:51] Importing proxy.js.trap.gz (8 of 122)
+[2020-06-28 16:15:51] Importing bdd.js.trap.gz (9 of 122)
+[2020-06-28 16:15:51] Importing jquery-3.2.js.trap.gz (10 of 122)
+[2020-06-28 16:15:52] Importing should.js.trap.gz (11 of 122)
+[2020-06-28 16:15:52] Importing vows.js.trap.gz (12 of 122)
+[2020-06-28 16:15:52] Importing assert.js.trap.gz (13 of 122)
+[2020-06-28 16:15:52] Importing assert_legacy.js.trap.gz (14 of 122)
+[2020-06-28 16:15:52] Importing buffer.js.trap.gz (15 of 122)
+[2020-06-28 16:15:52] Importing child_process.js.trap.gz (16 of 122)
+[2020-06-28 16:15:53] Importing cluster.js.trap.gz (17 of 122)
+[2020-06-28 16:15:53] Importing console.js.trap.gz (18 of 122)
+[2020-06-28 16:15:53] Importing constants.js.trap.gz (19 of 122)
+[2020-06-28 16:15:53] Importing crypto.js.trap.gz (20 of 122)
+[2020-06-28 16:15:54] Importing dgram.js.trap.gz (21 of 122)
+[2020-06-28 16:15:54] Importing dns.js.trap.gz (22 of 122)
+[2020-06-28 16:15:54] Importing domain.js.trap.gz (23 of 122)
+[2020-06-28 16:15:54] Importing events.js.trap.gz (24 of 122)
+[2020-06-28 16:15:54] Importing fs.js.trap.gz (25 of 122)
+[2020-06-28 16:15:54] Importing globals.js.trap.gz (26 of 122)
+[2020-06-28 16:15:55] Importing http.js.trap.gz (27 of 122)
+[2020-06-28 16:15:55] Importing https.js.trap.gz (28 of 122)
+[2020-06-28 16:15:55] Importing module.js.trap.gz (29 of 122)
+[2020-06-28 16:15:55] Importing net.js.trap.gz (30 of 122)
+[2020-06-28 16:15:55] Importing os.js.trap.gz (31 of 122)
+[2020-06-28 16:15:55] Importing path.js.trap.gz (32 of 122)
+[2020-06-28 16:15:55] Importing process.js.trap.gz (33 of 122)
+[2020-06-28 16:15:55] Importing punycode.js.trap.gz (34 of 122)
+[2020-06-28 16:15:55] Importing querystring.js.trap.gz (35 of 122)
+[2020-06-28 16:15:55] Importing readline.js.trap.gz (36 of 122)
+[2020-06-28 16:15:55] Importing repl.js.trap.gz (37 of 122)
+[2020-06-28 16:15:55] Importing stream.js.trap.gz (38 of 122)
+[2020-06-28 16:15:55] Importing string_decoder.js.trap.gz (39 of 122)
+[2020-06-28 16:15:56] Importing sys.js.trap.gz (40 of 122)
+[2020-06-28 16:15:56] Importing timers.js.trap.gz (41 of 122)
+[2020-06-28 16:15:56] Importing tls.js.trap.gz (42 of 122)
+[2020-06-28 16:15:56] Importing tty.js.trap.gz (43 of 122)
+[2020-06-28 16:15:56] Importing url.js.trap.gz (44 of 122)
+[2020-06-28 16:15:56] Importing util.js.trap.gz (45 of 122)
+[2020-06-28 16:15:56] Importing v8.js.trap.gz (46 of 122)
+[2020-06-28 16:15:56] Importing vm.js.trap.gz (47 of 122)
+[2020-06-28 16:15:56] Importing zlib.js.trap.gz (48 of 122)
+[2020-06-28 16:15:56] Importing jsshell.js.trap.gz (49 of 122)
+[2020-06-28 16:15:56] Importing rhino.js.trap.gz (50 of 122)
+[2020-06-28 16:15:56] Importing spidermonkey.js.trap.gz (51 of 122)
+[2020-06-28 16:15:56] Importing v8.js.trap.gz (52 of 122)
+[2020-06-28 16:15:56] Importing chrome.js.trap.gz (53 of 122)
+[2020-06-28 16:15:56] Importing fetchapi.js.trap.gz (54 of 122)
+[2020-06-28 16:15:56] Importing fileapi.js.trap.gz (55 of 122)
+[2020-06-28 16:15:56] Importing flash.js.trap.gz (56 of 122)
+[2020-06-28 16:15:57] Importing gecko_css.js.trap.gz (57 of 122)
+[2020-06-28 16:15:57] Importing gecko_dom.js.trap.gz (58 of 122)
+[2020-06-28 16:15:57] Importing gecko_event.js.trap.gz (59 of 122)
+[2020-06-28 16:15:57] Importing gecko_ext.js.trap.gz (60 of 122)
+[2020-06-28 16:15:57] Importing gecko_xml.js.trap.gz (61 of 122)
+[2020-06-28 16:15:57] Importing html5.js.trap.gz (62 of 122)
+[2020-06-28 16:15:57] Importing ie_css.js.trap.gz (63 of 122)
+[2020-06-28 16:15:57] Importing ie_dom.js.trap.gz (64 of 122)
+[2020-06-28 16:15:57] Importing ie_event.js.trap.gz (65 of 122)
+[2020-06-28 16:15:57] Importing ie_vml.js.trap.gz (66 of 122)
+[2020-06-28 16:15:57] Importing intl.js.trap.gz (67 of 122)
+[2020-06-28 16:15:57] Importing iphone.js.trap.gz (68 of 122)
+[2020-06-28 16:15:57] Importing mediasource.js.trap.gz (69 of 122)
+[2020-06-28 16:15:57] Importing page_visibility.js.trap.gz (70 of 122)
+[2020-06-28 16:15:57] Importing streamsapi.js.trap.gz (71 of 122)
+[2020-06-28 16:15:58] Importing url.js.trap.gz (72 of 122)
+[2020-06-28 16:15:58] Importing w3c_anim_timing.js.trap.gz (73 of 122)
+[2020-06-28 16:15:58] Importing w3c_batterystatus.js.trap.gz (74 of 122)
+[2020-06-28 16:15:58] Importing w3c_css.js.trap.gz (75 of 122)
+[2020-06-28 16:15:58] Importing w3c_css3d.js.trap.gz (76 of 122)
+[2020-06-28 16:15:58] Importing w3c_device_sensor_event.js.trap.gz (77 of 122)
+[2020-06-28 16:15:58] Importing w3c_dom1.js.trap.gz (78 of 122)
+[2020-06-28 16:15:58] Importing w3c_dom2.js.trap.gz (79 of 122)
+[2020-06-28 16:15:58] Importing w3c_dom3.js.trap.gz (80 of 122)
+[2020-06-28 16:15:58] Importing w3c_dom4.js.trap.gz (81 of 122)
+[2020-06-28 16:15:58] Importing w3c_elementtraversal.js.trap.gz (82 of 122)
+[2020-06-28 16:15:58] Importing w3c_encoding.js.trap.gz (83 of 122)
+[2020-06-28 16:15:58] Importing w3c_event.js.trap.gz (84 of 122)
+[2020-06-28 16:15:58] Importing w3c_event3.js.trap.gz (85 of 122)
+[2020-06-28 16:15:58] Importing w3c_gamepad.js.trap.gz (86 of 122)
+[2020-06-28 16:15:58] Importing w3c_geolocation.js.trap.gz (87 of 122)
+[2020-06-28 16:15:58] Importing w3c_indexeddb.js.trap.gz (88 of 122)
+[2020-06-28 16:15:58] Importing w3c_midi.js.trap.gz (89 of 122)
+[2020-06-28 16:15:58] Importing w3c_navigation_timing.js.trap.gz (90 of 122)
+[2020-06-28 16:15:58] Importing w3c_permissions.js.trap.gz (91 of 122)
+[2020-06-28 16:15:58] Importing w3c_pointer_events.js.trap.gz (92 of 122)
+[2020-06-28 16:15:58] Importing w3c_range.js.trap.gz (93 of 122)
+[2020-06-28 16:15:58] Importing w3c_requestidlecallback.js.trap.gz (94 of 122)
+[2020-06-28 16:15:58] Importing w3c_rtc.js.trap.gz (95 of 122)
+[2020-06-28 16:15:59] Importing w3c_screen_orientation.js.trap.gz (96 of 122)
+[2020-06-28 16:15:59] Importing w3c_selectors.js.trap.gz (97 of 122)
+[2020-06-28 16:15:59] Importing w3c_serviceworker.js.trap.gz (98 of 122)
+[2020-06-28 16:15:59] Importing w3c_touch_event.js.trap.gz (99 of 122)
+[2020-06-28 16:15:59] Importing w3c_webcrypto.js.trap.gz (100 of 122)
+[2020-06-28 16:15:59] Importing w3c_xml.js.trap.gz (101 of 122)
+[2020-06-28 16:15:59] Importing webgl.js.trap.gz (102 of 122)
+[2020-06-28 16:16:00] Importing webkit_css.js.trap.gz (103 of 122)
+[2020-06-28 16:16:00] Importing webkit_dom.js.trap.gz (104 of 122)
+[2020-06-28 16:16:00] Importing webkit_event.js.trap.gz (105 of 122)
+[2020-06-28 16:16:00] Importing webkit_notifications.js.trap.gz (106 of 122)
+[2020-06-28 16:16:00] Importing webkit_usercontent.js.trap.gz (107 of 122)
+[2020-06-28 16:16:00] Importing webstorage.js.trap.gz (108 of 122)
+[2020-06-28 16:16:00] Importing whatwg_encoding.js.trap.gz (109 of 122)
+[2020-06-28 16:16:00] Importing window.js.trap.gz (110 of 122)
+[2020-06-28 16:16:00] Importing jquery.fancybox.js.trap.gz (111 of 122)
+[2020-06-28 16:16:01] Importing index.html.trap.gz (112 of 122)
+[2020-06-28 16:16:01] Importing gulpfile.js.trap.gz (113 of 122)
+[2020-06-28 16:16:01] Importing package.json.trap.gz (114 of 122)
+[2020-06-28 16:16:01] Importing core.js.trap.gz (115 of 122)
+[2020-06-28 16:16:02] Importing fullscreen.js.trap.gz (116 of 122)
+[2020-06-28 16:16:02] Importing guestures.js.trap.gz (117 of 122)
+[2020-06-28 16:16:02] Importing hash.js.trap.gz (118 of 122)
+[2020-06-28 16:16:02] Importing media.js.trap.gz (119 of 122)
+[2020-06-28 16:16:02] Importing slideshow.js.trap.gz (120 of 122)
+[2020-06-28 16:16:02] Importing thumbs.js.trap.gz (121 of 122)
+[2020-06-28 16:16:02] Importing sourceLocationPrefix.trap.gz (122 of 122)
+[2020-06-28 16:16:02] Merging 1 fragments for files.
+[2020-06-28 16:16:02] Merging 1 fragments for folders.
+[2020-06-28 16:16:02] Merging 1 fragments for containerparent.
+[2020-06-28 16:16:02] Merging 3 fragments for locations_default.
+[2020-06-28 16:16:03] Merging 4 fragments for hasLocation.
+[2020-06-28 16:16:03] Merging 1 fragments for extraction_data.
+[2020-06-28 16:16:03] Merging 1 fragments for scopes.
+[2020-06-28 16:16:03] Merging 1 fragments for comments.
+[2020-06-28 16:16:03] Merging 1 fragments for indentation.
+[2020-06-28 16:16:03] Merging 1 fragments for numlines.
+[2020-06-28 16:16:03] Merging 2 fragments for tokeninfo.
+[2020-06-28 16:16:04] Merging 1 fragments for next_token.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_tags.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_tag_descriptions.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_tag_names.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_type_exprs.
+[2020-06-28 16:16:04] Merging 1 fragments for toplevels.
+[2020-06-28 16:16:04] Merging 1 fragments for stmts.
+[2020-06-28 16:16:04] Merging 1 fragments for stmtContainers.
+[2020-06-28 16:16:04] Merging 1 fragments for exprs.
+[2020-06-28 16:16:04] Merging 1 fragments for enclosingStmt.
+[2020-06-28 16:16:04] Merging 1 fragments for exprContainers.
+[2020-06-28 16:16:04] Merging 1 fragments for literals.
+[2020-06-28 16:16:04] Merging 1 fragments for variables.
+[2020-06-28 16:16:04] Merging 1 fragments for bind.
+[2020-06-28 16:16:04] Merging 1 fragments for scopenodes.
+[2020-06-28 16:16:04] Merging 1 fragments for scopenesting.
+[2020-06-28 16:16:04] Merging 1 fragments for decl.
+[2020-06-28 16:16:04] Merging 1 fragments for isArgumentsObject.
+[2020-06-28 16:16:04] Merging 1 fragments for entry_cfg_node.
+[2020-06-28 16:16:04] Merging 1 fragments for exit_cfg_node.
+[2020-06-28 16:16:04] Merging 2 fragments for successor.
+[2020-06-28 16:16:04] Merging 1 fragments for isExterns.
+[2020-06-28 16:16:04] Merging 1 fragments for filetype.
+[2020-06-28 16:16:04] Merging 1 fragments for extraction_time.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_prefix_qualifier.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_errors.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_record_field_name.
+[2020-06-28 16:16:04] Merging 1 fragments for jsdoc_has_new_parameter.
+[2020-06-28 16:16:04] Merging 1 fragments for properties.
+[2020-06-28 16:16:04] Merging 1 fragments for regexpterm.
+[2020-06-28 16:16:04] Merging 1 fragments for regexpConstValue.
+[2020-06-28 16:16:04] Merging 1 fragments for guard_node.
+[2020-06-28 16:16:04] Merging 1 fragments for isModule.
+[2020-06-28 16:16:04] Merging 1 fragments for isNodejs.
+[2020-06-28 16:16:04] Merging 1 fragments for arraySize.
+[2020-06-28 16:16:04] Merging 1 fragments for isCapture.
+[2020-06-28 16:16:04] Merging 1 fragments for isGreedy.
+[2020-06-28 16:16:04] Merging 1 fragments for charClassEscape.
+[2020-06-28 16:16:04] Merging 1 fragments for jumpTargets.
+[2020-06-28 16:16:04] Merging 1 fragments for rangeQuantifierLowerBound.
+[2020-06-28 16:16:04] Merging 1 fragments for rangeQuantifierUpperBound.
+[2020-06-28 16:16:04] Merging 1 fragments for xmlElements.
+[2020-06-28 16:16:04] Merging 1 fragments for xmllocations.
+[2020-06-28 16:16:04] Merging 1 fragments for xmlAttrs.
+[2020-06-28 16:16:04] Merging 1 fragments for xmlComments.
+[2020-06-28 16:16:04] Merging 1 fragments for regexpParseErrors.
+[2020-06-28 16:16:04] Merging 1 fragments for json.
+[2020-06-28 16:16:04] Merging 1 fragments for json_locations.
+[2020-06-28 16:16:04] Merging 1 fragments for json_literals.
+[2020-06-28 16:16:04] Merging 1 fragments for json_properties.
+[2020-06-28 16:16:04] Merging 1 fragments for sourceLocationPrefix.
+[2020-06-28 16:16:04] Saving string and id pools to disk.
+[2020-06-28 16:16:04] Finished importing trap files.
+[2020-06-28 16:16:04] Stopped the world to close the cache at sequence stamp o+3
+[2020-06-28 16:16:04] The disk cache is freshly trimmed; leave it be.
+[2020-06-28 16:16:04] Starting the world again
+[2020-06-28 16:16:04] Plumbing command codeql dataset import completed.
+[2020-06-28 16:16:04] [PROGRESS] database finalize> TRAP import complete (16.6s).
+[2020-06-28 16:16:04] Running plumbing command: codeql database cleanup --mode=normal -- /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db
+[2020-06-28 16:16:05] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2020-06-28 16:16:05] [PROGRESS] database cleanup> TRAP files cleaned up (24ms).
+[2020-06-28 16:16:05] Running plumbing command: codeql dataset cleanup --mode=normal -- /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/db-javascript
+[2020-06-28 16:16:05] [PROGRESS] dataset cleanup> Cleaning up dataset in /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/db-javascript.
+[2020-06-28 16:16:05] Trimming disk cache at /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db/db-javascript/default/cache in mode normal.
+[2020-06-28 16:16:05] Sequence stamp origin is -6710537797623176862
+[2020-06-28 16:16:05] Stopped the world to zealously trim disk at sequence stamp o+0
+[2020-06-28 16:16:05] Starting the world again
+[2020-06-28 16:16:05] Trimming completed (4ms): Trimmed disposable data from cache.
+[2020-06-28 16:16:05] Stopped the world to close the cache at sequence stamp o+1
+[2020-06-28 16:16:05] The disk cache is freshly trimmed; leave it be.
+[2020-06-28 16:16:05] Starting the world again
+[2020-06-28 16:16:05] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2020-06-28 16:16:05] Plumbing command codeql dataset cleanup completed.
+[2020-06-28 16:16:05] Plumbing command codeql database cleanup completed with status 0.
+[2020-06-28 16:16:05] Plumbing command codeql database finalize completed with status 0.
+[2020-06-28 16:16:05] [PROGRESS] database create> Successfully created database at /home/hacker/Documents/research/codeql_for_gadgets/fancybox_db.
+[2020-06-28 16:16:05] Terminating normally.
